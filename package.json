@@ -6,12 +6,13 @@
     "parcel-bundler": "^1.12.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "^3.4.0"
   },
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && parcel build public/index.html"
+    "build": "rm -rf dist && parcel build public/index.html && parcel build src/index.js",
+    "watch": "parcel build public/index.html"
   },
   "repository": "https://github.com/anant1996/aws-react-app.git",
   "author": "anant1996 <56394549+anant1996@users.noreply.github.com>",
